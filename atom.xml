@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhixin8.github.io/</id>
     <title>Jockie&apos; blog</title>
-    <updated>2019-11-22T13:37:45.444Z</updated>
+    <updated>2019-11-22T13:56:48.447Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhixin8.github.io/"/>
     <link rel="self" href="https://zhixin8.github.io//atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://zhixin8.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Jockie&apos; blog</rights>
     <entry>
-        <title type="html"><![CDATA[TEST_Markdown 语法简单教程]]></title>
+        <title type="html"><![CDATA[Test_Markdown 语法]]></title>
         <id>https://zhixin8.github.io//post/test_markdown-yu-fa-jian-dan-jiao-cheng</id>
         <link href="https://zhixin8.github.io//post/test_markdown-yu-fa-jian-dan-jiao-cheng">
         </link>
