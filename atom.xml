@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhixin8.github.io/</id>
     <title>Jockie&apos; blog</title>
-    <updated>2019-11-22T13:32:17.058Z</updated>
+    <updated>2019-11-22T13:37:28.431Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhixin8.github.io/"/>
     <link rel="self" href="https://zhixin8.github.io//atom.xml"/>
@@ -10,6 +10,82 @@
     <logo>https://zhixin8.github.io//images/avatar.png</logo>
     <icon>https://zhixin8.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Jockie&apos; blog</rights>
+    <entry>
+        <title type="html"><![CDATA[TEST_Markdown 语法简单教程]]></title>
+        <id>https://zhixin8.github.io//post/test_markdown-yu-fa-jian-dan-jiao-cheng</id>
+        <link href="https://zhixin8.github.io//post/test_markdown-yu-fa-jian-dan-jiao-cheng">
+        </link>
+        <updated>2019-11-22T13:33:45.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>斜体和粗体<br>
+使用 * 和 ** 表示斜体和粗体。</li>
+</ol>
+<p>示例：</p>
+<p>这是 斜体，这是 粗体。</p>
+<ol start="2">
+<li>标题<br>
+使用 #加空格表示一级标题，同理，##加空格表示二级标题</li>
+</ol>
+<p>一级标题<br>
+二级标题<br>
+三级标题<br>
+四级标题<br>
+五级标题<br>
+六级标题<br>
+3. 外链接<br>
+使用 <a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">描述</a> 为文字增加外链接。</p>
+<p>示例：</p>
+<p>这是去往 Hve Notes 主页 的链接。</p>
+<ol start="4">
+<li>无序列表<br>
+使用 - 表示无序列表。</li>
+</ol>
+<p>示例：</p>
+<p>无序列表项 一<br>
+无序列表项 二<br>
+无序列表项 三<br>
+5. 有序列表<br>
+使用数字和点表示有序列表。</p>
+<p>示例：</p>
+<p>有序列表项 一<br>
+有序列表项 二<br>
+有序列表项 三<br>
+6. 文字引用<br>
+使用 &gt; 表示文字引用。</p>
+<p>示例：</p>
+<p>野火烧不尽，春风吹又生。</p>
+<ol start="7">
+<li>行内代码块<br>
+使用 <code>代码</code> 表示行内代码块。</li>
+</ol>
+<p>示例：</p>
+<p>让我们聊聊 html。</p>
+<ol start="8">
+<li>代码块<br>
+使用 四个缩进空格 或 ``` 表示代码块。</li>
+</ol>
+<p>示例：</p>
+<p>这是一个代码块，此行左侧有四个不可见的空格。<br>
+9. 插入图像<br>
+使用 <img src="%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80" alt="描述"> 插入图像。</p>
+<p>示例：</p>
+<p>我的头像<br>
+测试代码<br>
+function hello() {<br>
+var username = 'xiaoming';<br>
+var age = 18;<br>
+console.log('Hello World');<br>
+}<br>
+hello()<br>
+表格示例<br>
+一个普通标题	一个普通标题	一个普通标题<br>
+短文本	中等文本	稍微长一点的文本<br>
+稍微长一点的文本	短文本	中等文本<br>
+左对齐标题	右对齐标题	居中对齐标题<br>
+短文本	中等文本	稍微长一点的文本<br>
+稍微长一点的文本	短文本	中等文本</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://zhixin8.github.io//post/hello-gridea</id>
