@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhixin.life/.</id>
     <title>Jockie&apos; blog</title>
-    <updated>2019-11-23T13:37:24.175Z</updated>
+    <updated>2019-11-23T13:47:43.153Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhixin.life/."/>
     <link rel="self" href="http://zhixin.life/./atom.xml"/>
@@ -16,9 +16,6 @@
         <link href="http://zhixin.life/./post/lesslesshua-yang-nian-hua-greatergreater-wang-jia-wei">
         </link>
         <updated>2019-11-22T14:01:32.000Z</updated>
-        <content type="html"><![CDATA[<p>“我从来没有想到婚姻会这么复杂，还以为一个人做得好就行了，可是两个人在一起，单是自己做得好是不够的” ​​​ ​​​​</p>
-<figure data-type="image" tabindex="1"><img src="http://zhixin.life/./post-images/1574431390991.jpg" alt=""></figure>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Test_Markdown 语法]]></title>
@@ -26,75 +23,6 @@
         <link href="http://zhixin.life/./post/test_markdown-yu-fa-jian-dan-jiao-cheng">
         </link>
         <updated>2019-11-22T13:33:45.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li>斜体和粗体<br>
-使用 * 和 ** 表示斜体和粗体。</li>
-</ol>
-<p>示例：</p>
-<p>这是 斜体，这是 粗体。</p>
-<ol start="2">
-<li>标题<br>
-使用 #加空格表示一级标题，同理，##加空格表示二级标题</li>
-</ol>
-<p>一级标题<br>
-二级标题<br>
-三级标题<br>
-四级标题<br>
-五级标题<br>
-六级标题<br>
-3. 外链接<br>
-使用 <a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">描述</a> 为文字增加外链接。</p>
-<p>示例：</p>
-<p>这是去往 Hve Notes 主页 的链接。</p>
-<ol start="4">
-<li>无序列表<br>
-使用 - 表示无序列表。</li>
-</ol>
-<p>示例：</p>
-<p>无序列表项 一<br>
-无序列表项 二<br>
-无序列表项 三<br>
-5. 有序列表<br>
-使用数字和点表示有序列表。</p>
-<p>示例：</p>
-<p>有序列表项 一<br>
-有序列表项 二<br>
-有序列表项 三<br>
-6. 文字引用<br>
-使用 &gt; 表示文字引用。</p>
-<p>示例：</p>
-<p>野火烧不尽，春风吹又生。</p>
-<ol start="7">
-<li>行内代码块<br>
-使用 <code>代码</code> 表示行内代码块。</li>
-</ol>
-<p>示例：</p>
-<p>让我们聊聊 html。</p>
-<ol start="8">
-<li>代码块<br>
-使用 四个缩进空格 或 ``` 表示代码块。</li>
-</ol>
-<p>示例：</p>
-<p>这是一个代码块，此行左侧有四个不可见的空格。<br>
-9. 插入图像<br>
-使用 <img src="%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80" alt="描述"> 插入图像。</p>
-<p>示例：</p>
-<p>我的头像<br>
-测试代码<br>
-function hello() {<br>
-var username = 'xiaoming';<br>
-var age = 18;<br>
-console.log('Hello World');<br>
-}<br>
-hello()<br>
-表格示例<br>
-一个普通标题	一个普通标题	一个普通标题<br>
-短文本	中等文本	稍微长一点的文本<br>
-稍微长一点的文本	短文本	中等文本<br>
-左对齐标题	右对齐标题	居中对齐标题<br>
-短文本	中等文本	稍微长一点的文本<br>
-稍微长一点的文本	短文本	中等文本</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
@@ -107,25 +35,6 @@ hello()<br>
 ]]></summary>
         <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
