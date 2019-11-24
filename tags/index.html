@@ -1,135 +1,161 @@
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>Jockie&#39; blog</title>
-<meta name="description" content="Stay hungry,Stay foolish!" />
-<link rel="shortcut icon" href="http://zhixin.life//favicon.ico?v=1574602201404">
+<meta name="description" content="Stay hungry,Stay foolish!">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://zhixin.life//favicon.ico?v=1574602533634">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://zhixin.life//styles/main.css">
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153172431-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153172431-1');
+</script>
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="http://zhixin.life/">
-  <img class="avatar" src="http://zhixin.life//images/avatar.png?v=1574602201404" alt="">
-  </a>
-  <h1 class="site-title">
-    Jockie&#39; blog
-  </h1>
-  <p class="site-description">
-    Stay hungry,Stay foolish!
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="http://zhixin.life/">
+        <img class="avatar" src="http://zhixin.life//images/avatar.png?v=1574602533634" alt="" width="32px" height="32px">
+      </a>
+      <a href="http://zhixin.life/">
+        <h1 class="site-title">Jockie&#39; blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
 
-        <div class="tags-container">
+
+        <div class="content-container">
           
-            <a class="tag" href="http://zhixin.life//tag/LfEZyF6K9">WIN</a>
-          
-            <a class="tag" href="http://zhixin.life//tag/ZtxrkoBPW">网络</a>
-          
-            <a class="tag" href="http://zhixin.life//tag/PhJPAV3do">测试</a>
-          
-            <a class="tag" href="http://zhixin.life//tag/jZxh-JbYx">Gridea</a>
-          
+          <div class="tags-container">
+            
+              <a class="tag" href="http://zhixin.life//tag/LfEZyF6K9">WIN</a>
+            
+              <a class="tag" href="http://zhixin.life//tag/ZtxrkoBPW">网络</a>
+            
+              <a class="tag" href="http://zhixin.life//tag/PhJPAV3do">测试</a>
+            
+              <a class="tag" href="http://zhixin.life//tag/jZxh-JbYx">Gridea</a>
+            
+          </div>
+
         </div>
 
         <div class="site-footer">
-  Powered by <a href="https://weibo.com/p/1005053023470512/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank">Jockie</a>  @ 2019.11.11 | 
-  <a class="rss" href="http://zhixin.life//atom.xml" target="_blank">RSS</a>
+  <div class="slogan">Stay hungry,Stay foolish!</div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/Zhixin8/Zhixin8.github.io" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      
+    
+      
+        <a href="https://github.com/Zhixin8/Zhixin8.github.io" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+      
+    
+      
+        <a href="https://github.com/Zhixin8/Zhixin8.github.io" target="_blank">
+          <i class="fab fa-weibo"></i>
+        </a>
+      
+    
+      
+        <a href="https://github.com/Zhixin8/Zhixin8.github.io" target="_blank">
+          <i class="fab fa-zhihu"></i>
+        </a>
+      
+    
+      
+        <a href="https://github.com/Zhixin8/Zhixin8.github.io" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+      
+    
+  </div>
+  Powered by <a href="https://weibo.com/p/1005053023470512/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank">Jockie</a>  @ 2019.11.11 | <a class="rss" href="http://zhixin.life//atom.xml" target="_blank">RSS</a>
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
 
-  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+      </div>
+      <script type="application/javascript">
 
-  // This should probably be throttled.
-  // Especially because it triggers during smooth scrolling.
-  // https://lodash.com/docs/4.17.10#throttle
-  // You could do like...
-  // window.addEventListener("scroll", () => {
-  //    _.throttle(doThatStuff, 100);
-  // });
-  // Only not doing it here to keep this Pen dependency-free.
+hljs.initHighlightingOnLoad()
 
-  window.addEventListener("scroll", event => {
-    let fromTop = window.scrollY;
-
-    mainNavLinks.forEach((link, index) => {
-      let section = document.getElementById(decodeURI(link.hash).substring(1));
-      let nextSection = null
-      if (mainNavLinks[index + 1]) {
-        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-      }
-      if (section.offsetTop <= fromTop) {
-        if (nextSection) {
-          if (nextSection.offsetTop > fromTop) {
-            link.classList.add("current");
-          } else {
-            link.classList.remove("current");    
-          }
-        } else {
-          link.classList.add("current");
-        }
-      } else {
-        link.classList.remove("current");
-      }
-    });
-  });
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
 
-      </div>
+
+
+
     </div>
   </body>
 </html>
