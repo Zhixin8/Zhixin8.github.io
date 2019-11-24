@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zhixin8.github.io/.</id>
+    <id>https://zhixin.life/</id>
     <title>Jockie&apos; blog</title>
-    <updated>2019-11-24T13:22:25.047Z</updated>
+    <updated>2019-11-24T13:28:45.562Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zhixin8.github.io/."/>
-    <link rel="self" href="https://zhixin8.github.io/./atom.xml"/>
+    <link rel="alternate" href="https://zhixin.life/"/>
+    <link rel="self" href="https://zhixin.life//atom.xml"/>
     <subtitle>Stay hungry,Stay foolish!</subtitle>
-    <logo>https://zhixin8.github.io/./images/avatar.png</logo>
-    <icon>https://zhixin8.github.io/./favicon.ico</icon>
+    <logo>https://zhixin.life//images/avatar.png</logo>
+    <icon>https://zhixin.life//favicon.ico</icon>
     <rights>All rights reserved 2019, Jockie&apos; blog</rights>
     <entry>
         <title type="html"><![CDATA[Windows 软件集合]]></title>
-        <id>https://zhixin8.github.io/./post/windows-ruan-jian-ji-he</id>
-        <link href="https://zhixin8.github.io/./post/windows-ruan-jian-ji-he">
+        <id>https://zhixin.life//post/windows-ruan-jian-ji-he</id>
+        <link href="https://zhixin.life//post/windows-ruan-jian-ji-he">
         </link>
         <updated>2019-11-24T12:05:45.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[最新镜像更新站]]></title>
-        <id>https://zhixin8.github.io/./post/zui-xin-jing-xiang-geng-xin-zhan</id>
-        <link href="https://zhixin8.github.io/./post/zui-xin-jing-xiang-geng-xin-zhan">
+        <id>https://zhixin.life//post/zui-xin-jing-xiang-geng-xin-zhan</id>
+        <link href="https://zhixin.life//post/zui-xin-jing-xiang-geng-xin-zhan">
         </link>
         <updated>2019-11-23T14:29:28.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[科学上网]]></title>
-        <id>https://zhixin8.github.io/./post/lesslesshua-yang-nian-hua-greatergreater-wang-jia-wei</id>
-        <link href="https://zhixin8.github.io/./post/lesslesshua-yang-nian-hua-greatergreater-wang-jia-wei">
+        <id>https://zhixin.life//post/lesslesshua-yang-nian-hua-greatergreater-wang-jia-wei</id>
+        <link href="https://zhixin.life//post/lesslesshua-yang-nian-hua-greatergreater-wang-jia-wei">
         </link>
         <updated>2019-11-22T14:01:32.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Test_Markdown 语法]]></title>
-        <id>https://zhixin8.github.io/./post/test_markdown-yu-fa-jian-dan-jiao-cheng</id>
-        <link href="https://zhixin8.github.io/./post/test_markdown-yu-fa-jian-dan-jiao-cheng">
+        <id>https://zhixin.life//post/test_markdown-yu-fa-jian-dan-jiao-cheng</id>
+        <link href="https://zhixin.life//post/test_markdown-yu-fa-jian-dan-jiao-cheng">
         </link>
         <updated>2019-11-22T13:33:45.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://zhixin8.github.io/./post/hello-gridea</id>
-        <link href="https://zhixin8.github.io/./post/hello-gridea">
+        <id>https://zhixin.life//post/hello-gridea</id>
+        <link href="https://zhixin.life//post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
