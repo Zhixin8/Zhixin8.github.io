@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhixin.life/</id>
     <title>Jockie&apos; blog</title>
-    <updated>2019-11-25T13:45:50.870Z</updated>
+    <updated>2019-11-25T13:47:59.404Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhixin.life/"/>
     <link rel="self" href="http://zhixin.life//atom.xml"/>
@@ -16,6 +16,10 @@
         <link href="http://zhixin.life//post/windows-ruan-jian-ji-he">
         </link>
         <updated>2019-11-24T12:05:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>状态栏透明：startisback     官网：http://www.startisback.com/</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>状态栏透明：startisback     官网：http://www.startisback.com/</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[最新镜像更新站]]></title>
@@ -23,6 +27,10 @@
         <link href="http://zhixin.life//post/zui-xin-jing-xiang-geng-xin-zhan">
         </link>
         <updated>2019-11-23T14:29:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>镜像均为官方原版，已更新奶牛快传，</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>镜像均为官方原版，已更新奶牛快传，</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[科学上网]]></title>
@@ -30,6 +38,26 @@
         <link href="http://zhixin.life//post/lesslesshua-yang-nian-hua-greatergreater-wang-jia-wei">
         </link>
         <updated>2019-11-22T14:01:32.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="常用网站">常用网站</h1>
+<ul>
+<li>谷歌云地址：<a href="https://cloud.google.com/">https://cloud.google.com/ </a></li>
+<li>Ping检测：<a href="http://ping.chinaz.com">http://ping.chinaz.com </a></li>
+<li>Vps连接软件（Putty）：<a href="www.lanzous.com/i68xjpg">www.lanzous.com/i68xjpg </a></li>
+<li>国外地址生成：<a href="www.dizhishengcheng.com/">www.dizhishengcheng.com/ </a></li>
+<li>Bbrplus/Ssr搭建代码：<a href="www.lanzous.com/i68t5ha">www.lanzous.com/i68t5ha </a></li>
+</ul>
+<hr>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="常用网站">常用网站</h1>
+<ul>
+<li>谷歌云地址：<a href="https://cloud.google.com/">https://cloud.google.com/ </a></li>
+<li>Ping检测：<a href="http://ping.chinaz.com">http://ping.chinaz.com </a></li>
+<li>Vps连接软件（Putty）：<a href="www.lanzous.com/i68xjpg">www.lanzous.com/i68xjpg </a></li>
+<li>国外地址生成：<a href="www.dizhishengcheng.com/">www.dizhishengcheng.com/ </a></li>
+<li>Bbrplus/Ssr搭建代码：<a href="www.lanzous.com/i68t5ha">www.lanzous.com/i68t5ha </a></li>
+</ul>
+<hr>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
