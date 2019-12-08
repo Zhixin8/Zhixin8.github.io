@@ -1,162 +1,153 @@
-
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Jockie&#39; blog</title>
-<meta name="description" content="学术尚浅，循序渐进。">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
+<meta name="description" content="学术尚浅，循序渐进。" />
+<link rel="shortcut icon" href="http://zhixin.life//favicon.ico?v=1575769862764">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://zhixin.life//favicon.ico?v=1575769640813">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://zhixin.life//styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153172431-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-153172431-1');
-</script>
 
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="http://zhixin.life/">
-        <img class="avatar" src="http://zhixin.life//images/avatar.png?v=1575769640813" alt="" width="32px" height="32px">
-      </a>
-      <a href="http://zhixin.life/">
-        <h1 class="site-title">Jockie&#39; blog</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="http://zhixin.life/">
+  <img class="avatar" src="http://zhixin.life//images/avatar.png?v=1575769862764" alt="">
+  </a>
+  <h1 class="site-title">
+    Jockie&#39; blog
+  </h1>
+  <p class="site-description">
+    学术尚浅，循序渐进。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        
-        
-<section class="post-item">
-    <div class="content">
+    
+        <div class="post-container">
+  
+    <article class="post">
       <a href="http://zhixin.life//post/windows-ruan-jian-ji-he">
         <h2 class="post-title">Windows 软件集合</h2>
       </a>
+      <div class="post-info">
+        <span>
+          2019-11-24
+        </span>
+        <span>
+          1 min read
+        </span>
+        
+          <a href="http://zhixin.life//tag/LfEZyF6K9" class="post-tag">
+            # WIN
+          </a>
+        
+      </div>
+      
+        <a href="http://zhixin.life//post/windows-ruan-jian-ji-he" class="post-feature-image" style="background-image: url('http://zhixin.life//post-images/windows-ruan-jian-ji-he.png')">
+        </a>
+      
       <div class="post-abstract">
         <p>状态栏透明：startisback     官网：http://www.startisback.com/</p>
 
       </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-11-24</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="http://zhixin.life//tag/LfEZyF6K9">
-                WIN
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="http://zhixin.life//post/windows-ruan-jian-ji-he">
-        <div class="feature-container" style="background-image: url('http://zhixin.life//post-images/windows-ruan-jian-ji-he.png')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
+    </article>
+  
+    <article class="post">
       <a href="http://zhixin.life//post/zui-xin-jing-xiang-geng-xin-zhan">
         <h2 class="post-title">最新镜像更新站</h2>
       </a>
+      <div class="post-info">
+        <span>
+          2019-11-23
+        </span>
+        <span>
+          1 min read
+        </span>
+        
+          <a href="http://zhixin.life//tag/ZtxrkoBPW" class="post-tag">
+            # 网络
+          </a>
+        
+      </div>
+      
+        <a href="http://zhixin.life//post/zui-xin-jing-xiang-geng-xin-zhan" class="post-feature-image" style="background-image: url('http://zhixin.life//post-images/zui-xin-jing-xiang-geng-xin-zhan.png')">
+        </a>
+      
       <div class="post-abstract">
         <p>镜像均为官方原版，已更新奶牛快传，</p>
 
       </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-11-23</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="http://zhixin.life//tag/ZtxrkoBPW">
-                网络
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="http://zhixin.life//post/zui-xin-jing-xiang-geng-xin-zhan">
-        <div class="feature-container" style="background-image: url('http://zhixin.life//post-images/zui-xin-jing-xiang-geng-xin-zhan.png')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
+    </article>
+  
+    <article class="post">
       <a href="http://zhixin.life//post/lesslesshua-yang-nian-hua-greatergreater-wang-jia-wei">
         <h2 class="post-title">科学上网</h2>
       </a>
+      <div class="post-info">
+        <span>
+          2019-11-22
+        </span>
+        <span>
+          1 min read
+        </span>
+        
+          <a href="http://zhixin.life//tag/ZtxrkoBPW" class="post-tag">
+            # 网络
+          </a>
+        
+      </div>
+      
+        <a href="http://zhixin.life//post/lesslesshua-yang-nian-hua-greatergreater-wang-jia-wei" class="post-feature-image" style="background-image: url('https://ftp.bmp.ovh/imgs/2019/11/34fd37a818fc1dc8.png')">
+        </a>
+      
       <div class="post-abstract">
         <ul>
 <li>谷歌云地址：<a href="https://cloud.google.com/">https://cloud.google.com/ </a></li>
@@ -164,122 +155,92 @@
 </ul>
 
       </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-11-22</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="http://zhixin.life//tag/ZtxrkoBPW">
-                网络
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="http://zhixin.life//post/lesslesshua-yang-nian-hua-greatergreater-wang-jia-wei">
-        <div class="feature-container" style="background-image: url('https://ftp.bmp.ovh/imgs/2019/11/34fd37a818fc1dc8.png')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
+    </article>
+  
+    <article class="post">
       <a href="http://zhixin.life//post/hello-gridea">
         <h2 class="post-title">Hello Gridea</h2>
       </a>
+      <div class="post-info">
+        <span>
+          2018-12-12
+        </span>
+        <span>
+          2 min read
+        </span>
+        
+          <a href="http://zhixin.life//tag/jZxh-JbYx" class="post-tag">
+            # Gridea
+          </a>
+        
+      </div>
+      
+        <a href="http://zhixin.life//post/hello-gridea" class="post-feature-image" style="background-image: url('http://zhixin.life//post-images/hello-gridea.png')">
+        </a>
+      
       <div class="post-abstract">
         <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 
       </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2018-12-12</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="http://zhixin.life//tag/jZxh-JbYx">
-                Gridea
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="http://zhixin.life//post/hello-gridea">
-        <div class="feature-container" style="background-image: url('http://zhixin.life//post-images/hello-gridea.png')">
-        </div>
-      </a>
-    
-  </section>
+    </article>
+  
+</div>
 
-
-<div class="pagination-container">
+    
+        <div class="pagination-container">
   
   
 </div>
 
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">学术尚浅，循序渐进。</div>
-  <div class="social-container">
     
-      
-        <a href="https://github.com/Zhixin8/Zhixin8.github.io" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-        <a href=" https://twitter.com/Jockiey1?s=09" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-      
-    
-      
-        <a href="https://www.weibo.com/p/1005053023470512" target="_blank">
-          <i class="fab fa-weibo"></i>
-        </a>
-      
-    
-      
-    
-      
-        <a href=" " target="_blank">
-          <i class="fab fa-facebook"></i>
-        </a>
-      
-    
-  </div>
-  © Jockie's Blog 2011 - 2021  Designed and developed by Jockie. | <a class="rss" href="http://zhixin.life//atom.xml" target="_blank">RSS</a>
+        <div class="site-footer">
+  © Jockie's Blog 2011 - 2021  Designed and developed by Jockie. | 
+  <a class="rss" href="http://zhixin.life//atom.xml" target="_blank">RSS</a>
 </div>
 
+<script>
+  hljs.initHighlightingOnLoad()
 
-    </div>
-    <script type="application/javascript">
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-hljs.initHighlightingOnLoad()
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
 
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
