@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhixin.life/</id>
     <title>Jockie&apos; blog</title>
-    <updated>2021-01-06T16:15:25.474Z</updated>
+    <updated>2021-01-06T16:18:54.158Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhixin.life/"/>
     <link rel="self" href="http://zhixin.life/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>http://zhixin.life/favicon.ico</icon>
     <rights>All rights reserved 2021, Jockie&apos; blog</rights>
     <entry>
-        <title type="html"><![CDATA[源于快乐的满足。]]></title>
+        <title type="html"><![CDATA[源于生活的满足。]]></title>
         <id>http://zhixin.life/post/chuan-tong-xiang-mu-nian-du-zong-jie</id>
         <link href="http://zhixin.life/post/chuan-tong-xiang-mu-nian-du-zong-jie">
         </link>
