@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhixin.life/</id>
     <title>Jockie&apos; blog</title>
-    <updated>2021-01-06T13:42:52.346Z</updated>
+    <updated>2021-01-06T16:09:08.539Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhixin.life/"/>
     <link rel="self" href="http://zhixin.life/atom.xml"/>
@@ -11,7 +11,21 @@
     <icon>http://zhixin.life/favicon.ico</icon>
     <rights>All rights reserved 2021, Jockie&apos; blog</rights>
     <entry>
-        <title type="html"><![CDATA[笑着活，哭着死。]]></title>
+        <title type="html"><![CDATA[源于快乐的满足。]]></title>
+        <id>http://zhixin.life/post/chuan-tong-xiang-mu-nian-du-zong-jie</id>
+        <link href="http://zhixin.life/post/chuan-tong-xiang-mu-nian-du-zong-jie">
+        </link>
+        <updated>2021-01-06T16:06:25.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[源于满足的快乐。]]></title>
+        <id>http://zhixin.life/post/yuan-yu-man-zu-de-kuai-le</id>
+        <link href="http://zhixin.life/post/yuan-yu-man-zu-de-kuai-le">
+        </link>
+        <updated>2021-01-06T16:06:25.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[选择与承受]]></title>
         <id>http://zhixin.life/post/xiao-zhao-huo-ku-zhao-si</id>
         <link href="http://zhixin.life/post/xiao-zhao-huo-ku-zhao-si">
         </link>
