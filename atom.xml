@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhixin8.github.io</id>
+    <title>Jockiery&apos; blog</title>
+    <updated>2023-02-09T00:48:42.464Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zhixin8.github.io"/>
+    <link rel="self" href="https://zhixin8.github.io/atom.xml"/>
+    <subtitle>学术尚浅，循序渐进。</subtitle>
+    <logo>https://zhixin8.github.io/images/avatar.png</logo>
+    <icon>https://zhixin8.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, Jockiery&apos; blog</rights>
+    <entry>
+        <title type="html"><![CDATA[美区 Apple ID 充值教程（支付宝/礼品卡）]]></title>
+        <id>https://zhixin8.github.io/post/mei-qu-apple-id-li-pin-qia-chong-zhi-jiao-cheng/</id>
+        <link href="https://zhixin8.github.io/post/mei-qu-apple-id-li-pin-qia-chong-zhi-jiao-cheng/">
+        </link>
+        <updated>2023-02-08T12:04:38.000Z</updated>
+    </entry>
+</feed>

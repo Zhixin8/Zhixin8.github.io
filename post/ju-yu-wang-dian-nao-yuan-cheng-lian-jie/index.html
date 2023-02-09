@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>局域网电脑远程连接 | Jockiery&#39; blog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://zhixin8.github.io/favicon.ico?v=1675903720227">
+<link rel="stylesheet" href="https://zhixin8.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="以下在被控制电脑操作：
+一、打开此电脑，空白出右击——属性——远程设置——勾选“远程协助” 和 下方的  ”允许远程连接到计算机“ ，选择用户中显示已经有访问权的账户就是需要后续在操作电脑上输入的账户和密码。
+
+
+
+
+二、右下角搜索框——输..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://zhixin8.github.io">
+        <img src="https://zhixin8.github.io/images/avatar.png?v=1675903720227" class="site-logo">
+        <h1 class="site-title">Jockiery&#39; blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      学术尚浅，循序渐进。
+    </div>
+    <div class="site-footer">
+      <footer id="foot">
+    <div class="copyright">
+        <script>
+App.recallMemory();
+</script>
+<!--<img src="https://ipcounter.ihcr.top" alt="标准开头.png" loading="lazy" width="500" height="500 ">-->
+		
+                <div>
+                         <div style="font-size:12px">
+                         已经建站： <b id="build_time">1769 天 22 时 49 分 48 秒 </b>
+
+                         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                         <span data-hk-page="current"></span>&nbsp;
+                </div>
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
+                        <script>
+                            buildTime = '2019-01-01'
+                            setInterval(show_date_time, 1000, buildTime);
+                        </script>
+                         
+                            
+     
+    <script>
+        let back2TopText = document.querySelector('.back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.hitokoto();
+        
+        
+        App.weather();
+        
+        var themeIcon = document.getElementById("themeIcon");
+        const currentTheme = window.localStorage.getItem('theme');
+        App.clearLog();
+        App.outputlog();
+        var logo = '%c💤ITJoker\'%cBlog';
+        console.info(
+            logo,
+            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
+        );
+        $('img').attr('data-fancybox', 'images');
+    </script>
+</footer> | <a class="rss" href="https://zhixin8.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">局域网电脑远程连接</h2>
+            <div class="post-date">2023-01-17</div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="以下在被控制电脑操作">以下在被控制电脑操作：</h1>
+<p>一、打开此电脑，空白出右击——属性——远程设置——勾选“远程协助” 和 下方的  ”允许远程连接到计算机“ ，选择用户中显示已经有访问权的账户就是需要后续在操作电脑上输入的账户和密码。</p>
+<figure data-type="image" tabindex="1"><img src="https://zhixin8.github.io/post-images/1673957673637.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://zhixin8.github.io/post-images/1673957718295.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://zhixin8.github.io/post-images/1673957751549.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://zhixin8.github.io/post-images/1673957891495.png" alt="" loading="lazy"></figure>
+<p>二、右下角搜索框——输入“安全中心“——进入到安全中心设置 ——打开windows安全中心——防火墙和网络保护——允许应用通过防火墙——打开关于远程桌面的设置。</p>
+<figure data-type="image" tabindex="5"><img src="https://zhixin8.github.io/post-images/1673958238413.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://zhixin8.github.io/post-images/1673958333209.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://zhixin8.github.io/post-images/1673958524129.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://zhixin8.github.io/post-images/1673958566316.png" alt="" loading="lazy"></figure>
+<p>三、WIIN+R打开运行——输入cmd——ipconfig——获取到本机ID地址。</p>
+<figure data-type="image" tabindex="9"><img src="https://zhixin8.github.io/post-images/1673958795340.png" alt="" loading="lazy"></figure>
+<h1 id="以下在控制电脑上操作">以下在控制电脑上操作：</h1>
+<p>一、WIIN+R打开运行——输入MSTSC——进入连接——输入需要被控制电脑的IP。</p>
+<figure data-type="image" tabindex="10"><img src="https://zhixin8.github.io/post-images/1673959040699.png" alt="" loading="lazy"></figure>
+<p>二、输入被控制电脑的用户名和密码，没有意外的就可以进入被控制桌面了。</p>
+<figure data-type="image" tabindex="11"><img src="https://zhixin8.github.io/post-images/1673959177692.png" alt="" loading="lazy"></figure>
+<p><strong>FAQ 收录：</strong></p>
+<p>1、出现身份验证错误，无法连接到本地安全机构，如图：<br>
+<img src="https://zhixin8.github.io/post-images/1673959418773.png" alt="" loading="lazy"></p>
+<p>解决方案：<br>
+被远程电脑上操作：win+R——输入secpol.msc——进入【本地策略】——【安全选项】—找到 网络访问：本地账户的共享和安全模型，双击进入设置改为: 经典-对本地用户进行身份验证，不改变其本来身份，设置完毕后即可远程登陆。</p>
+<figure data-type="image" tabindex="12"><img src="https://zhixin8.github.io/post-images/1673959855968.png" alt="" loading="lazy"></figure>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zhixin8.github.io/post/ke-xue-de-shang-wang/">
+                  <h3 class="post-title">
+                    魔法网站记录
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

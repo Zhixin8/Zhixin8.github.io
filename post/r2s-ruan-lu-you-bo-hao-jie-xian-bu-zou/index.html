@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>R2S/R4S/R4SE/R5S软路由拨号接线步骤 | Jockiery&#39; blog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://zhixin8.github.io/favicon.ico?v=1675903720227">
+<link rel="stylesheet" href="https://zhixin8.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="猫拨号接线步骤
+一、TF卡插入软路由TF卡槽，然后通电；
+
+第一次开机约2分钟左右
+R2S的SYS指示灯为红色，过程：亮、灭、闪、最终常亮；
+R4S/R4SE的PWR红色常亮，SYS指示灯为绿色，过程：亮、闪、最终常亮；
+R5S的SYS指示..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://zhixin8.github.io">
+        <img src="https://zhixin8.github.io/images/avatar.png?v=1675903720227" class="site-logo">
+        <h1 class="site-title">Jockiery&#39; blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      学术尚浅，循序渐进。
+    </div>
+    <div class="site-footer">
+      <footer id="foot">
+    <div class="copyright">
+        <script>
+App.recallMemory();
+</script>
+<!--<img src="https://ipcounter.ihcr.top" alt="标准开头.png" loading="lazy" width="500" height="500 ">-->
+		
+                <div>
+                         <div style="font-size:12px">
+                         已经建站： <b id="build_time">1769 天 22 时 49 分 48 秒 </b>
+
+                         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                         <span data-hk-page="current"></span>&nbsp;
+                </div>
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
+                        <script>
+                            buildTime = '2019-01-01'
+                            setInterval(show_date_time, 1000, buildTime);
+                        </script>
+                         
+                            
+     
+    <script>
+        let back2TopText = document.querySelector('.back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.hitokoto();
+        
+        
+        App.weather();
+        
+        var themeIcon = document.getElementById("themeIcon");
+        const currentTheme = window.localStorage.getItem('theme');
+        App.clearLog();
+        App.outputlog();
+        var logo = '%c💤ITJoker\'%cBlog';
+        console.info(
+            logo,
+            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
+        );
+        $('img').attr('data-fancybox', 'images');
+    </script>
+</footer> | <a class="rss" href="https://zhixin8.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">R2S/R4S/R4SE/R5S软路由拨号接线步骤</h2>
+            <div class="post-date">2023-01-18</div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="猫拨号接线步骤"><strong>猫拨号接线步骤</strong></h1>
+<p><strong>一、TF卡插入软路由TF卡槽，然后通电；</strong></p>
+<ul>
+<li>第一次开机约2分钟左右</li>
+<li>R2S的SYS指示灯为红色，过程：亮、灭、闪、最终常亮；</li>
+<li>R4S/R4SE的PWR红色常亮，SYS指示灯为绿色，过程：亮、闪、最终常亮；</li>
+<li>R5S的SYS指示灯为红色，过程：亮、闪、最终常亮；</li>
+</ul>
+<p><strong>二、光猫千兆口（一般为网口1）--（网线）--软路由Wan口；</strong><br>
+<strong>三、软路由Lan口--（网线）--电脑，打开 baidu.com，检查是否可以上网；</strong></p>
+<blockquote>
+<p>接入网线后，软路由Wan和Lan的正面指示灯为绿色频闪；</p>
+</blockquote>
+<p><strong>四、百度能打开，电脑可以正常上网后；</strong></p>
+<ul>
+<li>网线从电脑端拔出，直接插到无线路由器Wan口，设备连接WiFi，打开 baidu.com 确认无线网络可以上网；</li>
+<li>如果无线网不能上网，重启无线路由器；</li>
+</ul>
+<p><strong>最终接线状态：光猫千兆口--软路由Wan--软路由Lan--无线路由器Wan；</strong></p>
+<pre><code>特殊情况：
+如果无线路由器是 tplink 某些型号，进行上面步骤之前，需先调试tplink后台；
+tplink后台的Wan设置为静态ip，内容填写如下（此处内容的前提是根据软路由lan口的登录地址决定的）：
+IP：192.168.6.123
+子网掩码：255.255.255.0
+网关：192.168.6.1
+DNS：192.168.6.1
+</code></pre>
+<h1 id="路由器拨号接线步骤路由器拨号接线步骤"><strong>路由器拨号接线步骤	路由器拨号接线步骤</strong></h1>
+<p>温馨提示：软路由一定要先插tf卡，在通电！！！</p>
+<p><strong>一、软路由带到电脑旁，TF卡插入软路由TF卡槽，然后通电；</strong></p>
+<ul>
+<li>第一次开机约2分钟左右</li>
+<li>R2S的SYS指示灯为红色，过程：亮、灭、闪、最终常亮；</li>
+<li>R4S/R4SE的PWR红色常亮，SYS指示灯为绿色，过程：亮、闪、最终常亮；</li>
+<li>R5S的SYS指示灯为红色，过程：亮、闪、最终常亮；</li>
+</ul>
+<p><strong>二、启动完成后，软路由Lan口--（网线）--电脑；</strong><br>
+软路由Wan口什么都不接<br>
+电脑不需要有网络，只需要有线跟软路由Lan口连接即可</p>
+<p><strong>三、 进入软路由后台，进入方法如下：</strong></p>
+<blockquote>
+<p>默认ip地址：http://192.168.6.1（固件不同IP不同）<br>
+默认密码：password</p>
+</blockquote>
+<p>如果是其他作者固件，输入固件作者注明的默认ip地址才可以登录到OpenWrt后台，每个作者固件地址是不同.</p>
+<p><strong>四、 进入软路由管理后台后（用谷歌浏览器），按图文顺序操作；</strong></p>
+<figure data-type="image" tabindex="1"><a href="https://img.kancloud.cn/98/3d/983df6f7bafefd34aae1f1885a70e9c4_2533x4910.jpg"><img src="https://img.kancloud.cn/98/3d/983df6f7bafefd34aae1f1885a70e9c4_2533x4910.jpg" alt="" loading="lazy"></a></figure>
+<p><strong>五、光猫千兆口（一般为网口1）--（网线）--软路由Wan口；</strong></p>
+<blockquote>
+<p>确保光猫只有一个出网口接到软路由，无线路由器与光猫断开连接；</p>
+</blockquote>
+<p><strong>六、软路由Lan口--（网线）--电脑，打开 baidu.com，检查是否可以上网；</strong></p>
+<pre><code>接入网线后，软路由Wan和Lan的正面指示灯为绿色频闪；
+如不能上网，重启光猫；如还不能上网，检查宽带账号和密码是否输入错误；
+</code></pre>
+<p><strong>七、 软路由拨号可以上网后，电脑端网线拔出；</strong></p>
+<p><strong>八、无线路由器Lan--（网线）--电脑；</strong></p>
+<ul>
+<li>登录无线路由路由器后台；</li>
+<li>无线路由器上网方式由『PPPoE拨号』改为『DHCP客户端』（或者动态获取），每个路由器后台的叫法不同；</li>
+</ul>
+<p><strong>九、改好无线路由器后，最终接线状态：光猫千兆口--软路由Wan--软路由Lan--无线路由器Wan；</strong></p>
+<p>资料备份：<a href="https://www.kancloud.cn/jackylee666666/r2s-r4s/3040824">https://www.kancloud.cn/jackylee666666/r2s-r4s/3040824</a></p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zhixin8.github.io/post/2022-nian-nian-du-zong-jie/">
+                  <h3 class="post-title">
+                    2022年年度总结
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
